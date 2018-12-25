@@ -1,0 +1,71 @@
+/* pages/SignInRecord/SignInRecord.wxss */
+.head-box {
+  width: 100%;
+  height: 240rpx;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+}
+.head-box .left{
+  display: flex;
+  align-items: center;
+}
+.head-box .center{
+  margin-left: 30rpx;
+}
+.head-box .center .col{
+  color: #9b1d32;
+  margin-left: 20rpx;
+}
+.head-box .avatar {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  background: url(http://img.zcool.cn/community/0117825857a100a801219c778d2554.jpg);
+  background-size: 100% 100%;
+}
+.head-box .num {
+  font-size: 34rpx;
+  font-weight: 600;
+}
+.head-box .btn{
+   width: 150rpx;
+  height: 60rpx;
+  border-radius: 60rpx;
+  border: 1px solid #9b1d32;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9b1d32;
+  font-size: 28rpx;
+}
+.head-box .right {
+  width: 20rpx;
+  height: 35rpx;
+}
+.head-box text {
+  font-size: 32rpx;
+}
+
+.list{
+  width: 100%;
+  height: 120rpx;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.list .money{
+  font-size: 32rpx;
+  margin-bottom: 5rpx;
+}
+.list .time{
+  font-size: 28rpx;
+  color: #ccc;
+}

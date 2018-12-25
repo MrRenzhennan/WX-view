@@ -1,0 +1,40 @@
+/* pages/unaryTicket/unaryTicket.wxss */
+.unaryTicket{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+input{
+  width: 100%;
+  height: 90rpx;
+  background: #fff;
+  box-sizing: border-box;
+  padding-left: 20rpx;
+  font-size: 28rpx;
+  border-radius: 10rpx;
+  margin-top: 60rpx;
+}
+.brn-box{
+  width: 100%;
+  height: 90rpx;
+  background: #9b1d32;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+  color: #ffffff;
+  margin-top: 40rpx;
+  margin-bottom: 50rpx;
+  border-radius: 10rpx;
+}
+.tx{
+  font-size: 24rpx;
+  color: #cccccc;
+  line-height: 40rpx;
+}
+.ol{
+  font-size: 24rpx;
+  color: #9b1d32;
+}

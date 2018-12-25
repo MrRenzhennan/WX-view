@@ -1,0 +1,42 @@
+<!--pages/latestViewDetails/latestViewDetails.wxml-->
+<!--  -->
+<view class='t-box'>
+  <text class='tit'>遭重锤之后 谁值得博反弹？</text>
+  <text class='tim'>2018-12-20</text>
+</view>
+
+<view class='divider'></view>
+
+<view class='center'>
+  <text>王俐颖:</text>
+  <text class='ti'>重磅会议没有超预期利好，A股本周前三个交易日延续上周五开始的调整，沪指跌破收敛三角形下轨，弱势尽显。</text>
+  <text class='ti'>重磅会议没有超预期利好，A股本周前三个交易日延续上周五开始的调整，沪指跌破收敛三角形下轨，弱势尽显。重磅会议没有超预期利好，A股本周前三个交易日延续上周五开始的调整，沪指跌破收敛三角形下轨，弱势尽显。</text>
+  <text class='ti'>重磅会议没有超预期利好，A股本周前三个交易日延续上周五开始的调整，沪指跌破收敛三角形下轨，弱势尽显,沪指跌破收敛三角形下轨，弱势尽显。</text>
+  <text class='ti'>重磅会议没有超预期利好，A股本周前三个交易日延续上周五开始的调整，</text>
+</view>
+
+<!--  -->
+<view class='fix-bot'>
+  <view class='flex-bot'>
+    <view class='bx'>
+      <navigator url='/pages/index/index'>
+        <view class='cc'>
+          <image src='/static/imgs/money-icon.jpg'></image>
+          <text>首页</text>
+        </view>
+      </navigator>
+    </view>
+    <view class='bx'>
+      <view class='cc'>
+        <image src='/static/imgs/pl-icon.jpg'></image>
+        <text>发布评论</text>
+      </view>
+    </view>
+    <view class='bx'>
+      <view class='cc'>
+        <image src='/static/imgs/wx-icon.jpg'></image>
+        <text>分享好友</text>
+      </view>
+    </view>
+  </view>
+</view>

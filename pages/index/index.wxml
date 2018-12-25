@@ -1,0 +1,108 @@
+<!--pages/index/index.wxml-->
+<view class='slider'>
+  <swiper indicator-dots="{{ true }}" autoplay="{{ true }}" interval="3000" duration="{{ 1000 }}" circular="{{ true }}">
+    <swiper-item wx:for="{{ swiperList }}" wx:key="{{ id }}">
+      <image src="{{ item }}" lazy-load />
+    </swiper-item>
+  </swiper>
+</view>
+
+<!-- 分区 -->
+<view class='Partition'>
+  <navigator url=''>
+    <image src='/static/imgs/partition01.jpg'></image>
+    <text>实时行情</text>
+  </navigator>
+  <navigator url='/pages/circleFriends/circleFriends'>
+    <image src='/static/imgs/partition02.jpg'></image>
+    <text>私密朋友圈</text>
+  </navigator>
+  <navigator url='/pages/unaryTicket/unaryTicket'>
+    <image src='/static/imgs/partition03.jpg'></image>
+    <text>一元解票</text>
+  </navigator>
+</view>
+
+<!-- 间隔 -->
+<view class='divider'></view>
+
+<!-- 明星投资顾问最新观点 -->
+<view class='new-title'>
+  <view class='left'>
+    <view class='icon'></view>
+    <text>明星投资顾问最新观点</text>
+  </view>
+  <navigator url='/pages/latestView/latestView'>
+    <text>更多</text>
+  </navigator>
+</view>
+
+<!-- 分割线 -->
+<view class='line'></view>
+
+<!-- 新闻列表 -->
+<navigator url='/pages/latestViewDetails/latestViewDetails'>
+  <view class='new-list'>
+    <image src='/static/imgs/new01.jpg' mode="aspectFill"></image>
+    <view>
+      <text class='title ell'>大涨次日 有回抽加仓机会?</text>
+      <text class='center'>王丽颖: 周一（昨天）市场在周末利好消息刺激下全线大涨，三大指数均</text>
+    </view>
+  </view>
+</navigator>
+
+<!-- 分割线 -->
+<view class='line'></view>
+
+<!-- 新闻列表 -->
+<navigator url='/pages/latestViewDetails/latestViewDetails'>
+  <view class='new-list'>
+    <image src='/static/imgs/new02.jpg' mode="aspectFill"></image>
+    <view>
+      <text class='title ell'>大涨次日 有回抽加仓机会?</text>
+      <text class='center'>王丽颖: 周一（昨天）市场在周末利好消息刺激下全线大涨，三大指数均</text>
+    </view>
+  </view>
+</navigator>
+
+<!-- 间隔 -->
+<view class='divider'></view>
+
+<!-- 最新资讯 -->
+<view class='new-title'>
+  <view class='left'>
+    <view class='icon'></view>
+    <text>最新资讯</text>
+  </view>
+  <navigator url='/pages/latestNews/latestNews'>
+    <text>更多</text>
+  </navigator>
+</view>
+
+<!-- 分割线 -->
+<view class='line'></view>
+
+<!-- 资讯列表 -->
+<navigator url='/pages/latestNewsDetails/latestNewsDetails'>
+  <view class='messages-list'>
+    <text class='title'>钱掌门财经晨讯12月4日</text>
+    <text class='sub-tit'>外盘综述</text>
+    <text class='center ell'>周一，市场情绪趋于乐观，美股全线收涨，导致涨进</text>
+  </view>
+</navigator>
+
+<!-- 分割线 -->
+<view class='line'></view>
+
+<!-- 资讯列表 -->
+<navigator url='/pages/latestNewsDetails/latestNewsDetails'>
+  <view class='messages-list'>
+    <text class='title'>钱掌门财经晨讯12月4日</text>
+    <text class='sub-tit'>外盘综述</text>
+    <text class='center ell'>周一，市场情绪趋于乐观，美股全线收涨，导致涨进</text>
+  </view>
+</navigator>
+
+
+<!-- 间隔 -->
+<view class='divider'></view>

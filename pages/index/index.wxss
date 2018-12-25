@@ -1,0 +1,119 @@
+/* pages/index/index.wxss */
+.slider,
+.slider swiper,
+.slider image{
+  width:100%;
+  height: 270rpx;
+}
+.Partition{
+  width: 100%;
+  height: 200rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+}
+.Partition navigator{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Partition text{
+  color: #888888;
+  font-size: 24rpx;
+  margin-top: 12rpx;
+}
+.Partition image{
+  width: 90rpx;
+  height: 90rpx;
+}
+.new-title{
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 0px 30rpx;
+  box-sizing: border-box;
+}
+.new-title .left{
+  display: flex;
+  align-items: center;
+}
+.new-title .left .icon{
+  width: 7rpx;
+  height: 30rpx;
+  background: #9b1d32;
+  margin-right: 18rpx;
+}
+.new-title .left text{
+  font-size: 32rpx;
+  color: #333333;
+  font-weight: 600;
+}
+.new-title navigator text{
+  font-size: 32rpx;
+  color: #bfbfbf;
+}
+.new-list{
+  height: 230rpx;
+  width: 100%;
+  padding: 0px 30rpx;
+  box-sizing: border-box;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.new-list image{
+  width: 210rpx;
+  height: 150rpx;
+  margin-right: 18rpx;
+}
+.new-list view{
+  height: 210rpx;
+  width: 450rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.new-list view .title{
+  font-size: 32rpx;
+  color: #333333;
+  margin-top: 40rpx;
+  font-weight: bold;
+}
+.new-list view .center{
+  font-size: 28rpx;
+  color: #bfbfbf;
+  margin-top: 30rpx;
+}
+.messages-list{
+  height: 230rpx;
+  width: 100%;
+  padding: 0px 30rpx;
+  box-sizing: border-box;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.messages-list .title{
+  font-size: 32rpx;
+  color: #333333;
+  margin-top: 40rpx;
+  font-weight: bold;
+}
+.messages-list .sub-tit{
+  font-size: 28rpx;
+  color: #bfbfbf;
+  margin-top: 30rpx;
+}
+.messages-list .center{
+  font-size: 28rpx;
+  color: #bfbfbf;
+  margin-top: 20rpx;
+}

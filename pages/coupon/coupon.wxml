@@ -1,0 +1,8 @@
+<!--pages/coupon/coupon.wxml-->
+<view class='coupon'>
+  <input placeholder="请输入序列号兑换优惠券" />
+  <view class='btn'>
+    <text>兑换</text>
+  </view>
+  <text class='list-none'>您还没有优惠券哦</text>
+</view>

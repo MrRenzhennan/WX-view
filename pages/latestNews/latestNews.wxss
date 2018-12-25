@@ -1,0 +1,65 @@
+/* pages/latestNews/latestNews.wxss */
+.bgm{
+  width: 100%;
+  height: 270rpx;
+  background: url(http://bpic.588ku.com/back_pic/00/05/73/275627718e78efd.jpg);
+  background-size: 100% 100%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bgm .tit{
+  font-size: 60rpx;
+  font-weight: 600;
+  letter-spacing: 6rpx;
+}
+.eng-lang{
+  width: 360rpx;
+  font-size: 18rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15rpx;
+  font-weight: 400;
+}
+.eng-lang text{
+  letter-spacing: 2rpx;
+}
+.brn-box{
+  width: 210rpx;
+  height: 50rpx;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+  color: #f08798;
+  margin-top: 30rpx;
+  border-radius: 50rpx;
+  letter-spacing: 2rpx;
+}
+.messages-list{
+  height: 230rpx;
+  width: 100%;
+  padding: 0px 30rpx;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.messages-list .title{
+  font-size: 32rpx;
+  color: #333333;
+  margin-top: 40rpx;
+  font-weight: bold;
+}
+.messages-list .sub-tit{
+  font-size: 28rpx;
+  color: #bfbfbf;
+  margin-top: 30rpx;
+}
+.messages-list .center{
+  font-size: 28rpx;
+  color: #bfbfbf;
+  margin-top: 20rpx;
+}

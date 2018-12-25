@@ -1,0 +1,48 @@
+<!--pages/latestNewsDetails/latestNewsDetails.wxml-->
+<!--  -->
+<view class='t-box'>
+  <text class='tit'>钱掌门财经晨讯12月18日</text>
+  <text class='tim'>2018-12-18</text>
+</view>
+
+<view class='divider'></view>
+
+<view class='center'>
+  <text>晨讯</text>
+  <text>2018.12.18</text>
+  <text>周二</text>
+  <text class='mt30'>外盘陈述</text>
+  <text class='ti'>周一，欧洲主要固执偶爹。美股全线下作，三大股指均跌超2%，道指下挫逾500点，标普500指数创2017年10月9日以来的收盘新低。</text>
+  <text class='ti'>美元指数下挫，金价涨近1%创逾一周新高。</text>
+  <text>宏观</text>
+  <text class=''>1、11月末央行外汇占款还比减少111.3亿</text>
+  <text class='ti mt30'>重磅会议没有超预期利好，A股本周前三个交易日延续上周五开始的调整，沪指跌破收敛三角形下轨，弱势尽显,沪指跌破收敛三角形下轨，弱势尽显。</text>
+  <text class=''>2、11月末央行外汇占款还比减少111.3亿</text>
+  <text class='ti mt30'>重磅会议没有超预期利好，A股本周前三个交易日延续上周五开始的调整，沪指跌破收敛三角形下轨，弱势尽显,沪指跌破收敛三角形下轨，弱势尽显。</text>
+</view>
+
+<!--  -->
+<view class='fix-bot'>
+  <view class='flex-bot'>
+    <view class='bx'>
+      <navigator url='/pages/index/index'>
+        <view class='cc'>
+          <image src='/static/imgs/money-icon.jpg'></image>
+          <text>首页</text>
+        </view>
+      </navigator>
+    </view>
+    <view class='bx'>
+      <view class='cc'>
+        <image src='/static/imgs/pl-icon.jpg'></image>
+        <text>发布评论</text>
+      </view>
+    </view>
+    <view class='bx'>
+      <view class='cc'>
+        <image src='/static/imgs/wx-icon.jpg'></image>
+        <text>分享好友</text>
+      </view>
+    </view>
+  </view>
+</view>

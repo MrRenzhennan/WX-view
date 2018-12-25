@@ -1,0 +1,19 @@
+<!--pages/login/login.wxml-->
+<view class='box'>
+  <image src='/static/imgs/login-logo.jpg' class='login-logo'></image>
+  <image src='/static/imgs/login-text.jpg' class='login-text'></image>
+  <view class='btn-logo' bindtap='loginBtnClick'>
+    <text>微信用户快速登陆</text>
+  </view>
+  <view class='btn-registered'>
+    <navigator url='/pages/registered/registered'>
+      <text>没有账户?请注册登陆</text>
+    </navigator>
+  </view>
+  <view class='prompt'>
+    <text class='t1'>注册即代表同意</text>
+    <navigator url='/pages/serviceAgreement/serviceAgreement'>
+      <text class='t2'>用户服务协议</text>
+    </navigator>
+  </view>
+</view>

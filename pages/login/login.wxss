@@ -1,0 +1,57 @@
+/* pages/login/login.wxss */
+.box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.box .login-logo{
+  width: 150rpx;
+  height: 150rpx;
+  margin-top: 150rpx;
+}
+.box .login-text{
+  width: 480rpx;
+  height: 104rpx;
+  margin-top: 50rpx;
+}
+.btn-logo{
+  width: 560rpx;
+  height: 90rpx;
+  border-radius: 90rpx;
+  background: #9b1d32;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 32rpx;
+  margin-top: 120rpx;
+}
+.btn-registered{
+  width: 560rpx;
+  height: 90rpx;
+  border-radius: 90rpx;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9b1d32;
+  font-size: 32rpx;
+  margin-top: 30rpx;
+  box-sizing: border-box;
+  border: 1px solid #9b1d32;
+}
+.prompt{
+  display: flex;
+  flex-direction: row;
+  margin-top: 60rpx;
+  font-size: 28rpx;
+}
+.prompt .t1{
+  color: #888888;
+}
+.prompt .t2{
+  color: #9b1d32;
+  margin-left: 20rpx;
+}

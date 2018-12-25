@@ -1,0 +1,44 @@
+<!--pages/Recharge/Recharge.wxml-->
+<view class='top-list'>
+  <text>账户余额:</text>
+  <text class='col icon'>￥</text>
+  <text class='col'>3.50</text>
+</view>
+<view class='divider'></view>
+
+<view class='tit'>
+  <text>充值金额</text>
+</view>
+
+<!-- 充值类型 -->
+<view class='recharge-box'>
+  <view>
+    <text>充100元</text>
+  </view>
+  <view>
+    <text>充100元</text>
+  </view>
+  <view>
+    <text>充100元</text>
+    <text class='offer'>送50元</text>
+  </view>
+  <view>
+    <text>充100元</text>
+    <text class='offer'>送50元</text>
+  </view>
+</view>
+
+<!--  -->
+<view class='bottom'>
+  <navigator url='/pages/confirmOrder/confirmOrder'>
+    <view class='btn'>
+      <text>立即充值</text>
+    </view>
+  </navigator>
+  <view class='ct'>
+    <text>点击立即充值，即表示您已经同意</text>
+    <navigator url='/pages/serviceAgreement/serviceAgreement'>
+      <text class='col'>《用户服务协议》</text>
+    </navigator>
+  </view>
+</view>

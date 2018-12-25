@@ -1,0 +1,40 @@
+/* pages/serviceAgreement/serviceAgreement.wxss */
+.new-title{
+  width: 100%;
+  height: 110rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 0px 30rpx;
+  box-sizing: border-box;
+}
+.new-title .left{
+  display: flex;
+  align-items: center;
+}
+.new-title .left .icon{
+  width: 7rpx;
+  height: 30rpx;
+  background: #9b1d32;
+  margin-right: 18rpx;
+}
+.new-title .left text{
+  font-size: 32rpx;
+  color: #333333;
+  font-weight: 600;
+}
+
+.center{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20rpx 30rpx;
+  font-size: 27rpx;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.center text{
+  margin-bottom: 10rpx;
+}

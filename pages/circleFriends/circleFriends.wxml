@@ -1,0 +1,152 @@
+<!--pages/circleFriends/circleFriends.wxml-->
+
+<!-- 朋友圈列表 -->
+<navigator url='/pages/expertDetails/expertDetails'>
+  <view class='circleFriends'>
+    <view class='left'>
+      <image src='/static/imgs/circle02.jpg'></image>
+      <view>
+        <text class='tit'>郭宏伟</text>
+        <text class='sub-tit'>资深投资顾问【第一创业证券】</text>
+        <text class='center'>独创量价推理秘籍股市宝典</text>
+        <text class='attention-num'>3162人正在关注</text>
+      </view>
+    </view>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </view>
+</navigator>
+
+<navigator url='/pages/expertDetails/expertDetails'>
+  <view class='circleFriends'>
+    <view class='left'>
+      <image src='/static/imgs/circle01.jpg'></image>
+      <view>
+        <text class='tit'>王丽影</text>
+        <text class='sub-tit'>东方证券首席财富顾问【北京学院路营业部】</text>
+        <text class='center'>中国注册会计师协会非职业会员</text>
+        <text class='attention-num'>16834人正在关注</text>
+      </view>
+    </view>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </view>
+</navigator>
+
+<navigator url='/pages/expertDetails/expertDetails'>
+  <view class='circleFriends'>
+    <view class='left'>
+      <image src='/static/imgs/circle02.jpg'></image>
+      <view>
+        <text class='tit'>郭宏伟</text>
+        <text class='sub-tit'>资深投资顾问【第一创业证券】</text>
+        <text class='center'>独创量价推理秘籍股市宝典</text>
+        <text class='attention-num'>3162人正在关注</text>
+      </view>
+    </view>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </view>
+</navigator>
+
+<navigator url='/pages/expertDetails/expertDetails'>
+  <view class='circleFriends'>
+    <view class='left'>
+      <image src='/static/imgs/circle01.jpg'></image>
+      <view>
+        <text class='tit'>王丽影</text>
+        <text class='sub-tit'>东方证券首席财富顾问【北京学院路营业部】</text>
+        <text class='center'>中国注册会计师协会非职业会员</text>
+        <text class='attention-num'>16834人正在关注</text>
+      </view>
+    </view>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </view>
+</navigator>
+
+<navigator url='/pages/expertDetails/expertDetails'>
+  <view class='circleFriends'>
+    <view class='left'>
+      <image src='/static/imgs/circle02.jpg'></image>
+      <view>
+        <text class='tit'>郭宏伟</text>
+        <text class='sub-tit'>资深投资顾问【第一创业证券】</text>
+        <text class='center'>独创量价推理秘籍股市宝典</text>
+        <text class='attention-num'>3162人正在关注</text>
+      </view>
+    </view>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </view>
+</navigator>
+
+<navigator url='/pages/expertDetails/expertDetails'>
+  <view class='circleFriends'>
+    <view class='left'>
+      <image src='/static/imgs/circle01.jpg'></image>
+      <view>
+        <text class='tit'>王丽影</text>
+        <text class='sub-tit'>东方证券首席财富顾问【北京学院路营业部】</text>
+        <text class='center'>中国注册会计师协会非职业会员</text>
+        <text class='attention-num'>16834人正在关注</text>
+      </view>
+    </view>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </view>
+</navigator>
+
+<navigator url='/pages/expertDetails/expertDetails'>
+  <view class='circleFriends'>
+    <view class='left'>
+      <image src='/static/imgs/circle02.jpg'></image>
+      <view>
+        <text class='tit'>郭宏伟</text>
+        <text class='sub-tit'>资深投资顾问【第一创业证券】</text>
+        <text class='center'>独创量价推理秘籍股市宝典</text>
+        <text class='attention-num'>3162人正在关注</text>
+      </view>
+    </view>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </view>
+</navigator>
+
+<navigator url='/pages/expertDetails/expertDetails'>
+  <view class='circleFriends'>
+    <view class='left'>
+      <image src='/static/imgs/circle01.jpg'></image>
+      <view>
+        <text class='tit'>王丽影</text>
+        <text class='sub-tit'>东方证券首席财富顾问【北京学院路营业部】</text>
+        <text class='center'>中国注册会计师协会非职业会员</text>
+        <text class='attention-num'>16834人正在关注</text>
+      </view>
+    </view>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </view>
+</navigator>
+
+<navigator url='/pages/expertDetails/expertDetails'>
+  <view class='circleFriends'>
+    <view class='left'>
+      <image src='/static/imgs/circle02.jpg'></image>
+      <view>
+        <text class='tit'>郭宏伟</text>
+        <text class='sub-tit'>资深投资顾问【第一创业证券】</text>
+        <text class='center'>独创量价推理秘籍股市宝典</text>
+        <text class='attention-num'>3162人正在关注</text>
+      </view>
+    </view>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </view>
+</navigator>
+
+<navigator url='/pages/expertDetails/expertDetails'>
+  <view class='circleFriends'>
+    <view class='left'>
+      <image src='/static/imgs/circle01.jpg'></image>
+      <view>
+        <text class='tit'>王丽影</text>
+        <text class='sub-tit'>东方证券首席财富顾问【北京学院路营业部】</text>
+        <text class='center'>中国注册会计师协会非职业会员</text>
+        <text class='attention-num'>16834人正在关注</text>
+      </view>
+    </view>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </view>
+</navigator>

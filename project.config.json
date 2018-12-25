@@ -1,0 +1,161 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.2",
+	"appid": "wxc25575adab39badf",
+	"projectname": "QianZhangMen",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 17,
+			"list": [
+				{
+					"id": -1,
+					"name": "私密朋友圈",
+					"pathName": "pages/circleFriends/circleFriends",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "专家详情",
+					"pathName": "pages/expertDetails/expertDetails",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "服务协议",
+					"pathName": "pages/serviceAgreement/serviceAgreement",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "确认订单",
+					"pathName": "pages/confirmOrder/confirmOrder",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "一元解票",
+					"pathName": "pages/unaryTicket/unaryTicket",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "最新观点",
+					"pathName": "pages/latestView/latestView",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "最新观点详情",
+					"pathName": "pages/latestViewDetails/latestViewDetails",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "最新资讯",
+					"pathName": "pages/latestNews/latestNews",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "最新资讯详情",
+					"pathName": "pages/latestNewsDetails/latestNewsDetails",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "我的-未登录",
+					"pathName": "pages/main/main",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "登录",
+					"pathName": "pages/login/login",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "注册",
+					"pathName": "pages/registered/registered",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的-已登陆",
+					"pathName": "pages/mainEd/mainEd",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "优惠券",
+					"pathName": "pages/coupon/coupon",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "签到记录",
+					"pathName": "pages/SignInRecord/SignInRecord",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "余额",
+					"pathName": "pages/Balance/Balance",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "余额充值",
+					"pathName": "pages/Recharge/Recharge",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "客服",
+					"pathName": "pages/customerService/customerService"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,30 @@
+/**app.wxss**/
+page{
+  background-color: #f7f7f7;
+}
+
+
+/* 分区间隔 */
+.divider{
+  width: 100%;
+  height: 18rpx;
+}
+/* 分曲线 */
+.divider-line{
+  width: 100%;
+  height: 1px;
+}
+/* 分隔线 */
+.line{
+  border-bottom: 1px solid rgba(0,0,0,0.2)
+}
+/* 省略号 */
+.ell{
+   overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/*  */
+.mt30{
+  margin-bottom: 30rpx;
+}

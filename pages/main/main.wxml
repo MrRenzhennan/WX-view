@@ -1,0 +1,57 @@
+<!--pages/main/main.wxml-->
+<view class='head-box'>
+  <image></image>
+  <navigator url='/pages/login/login'>
+    <text>授权登陆</text>
+  </navigator>
+</view>
+<!-- 分区 -->
+<view class='divider'></view>
+<!-- 优惠券 -->
+<navigator url='/pages/coupon/coupon'>
+  <view class='list'>
+    <text>优惠券</text>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </view>
+</navigator>
+<view class='divider-line'></view>
+<!-- 余额 -->
+<navigator url='/pages/Balance/Balance'>
+  <view class='list'>
+    <text>余额</text>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </view>
+</navigator>
+<view class='divider-line'></view>
+<!-- 消息 -->
+<view class='list'>
+  <text>消息</text>
+  <navigator url=''>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </navigator>
+</view>
+<view class='divider-line'></view>
+<!-- 计划 -->
+<view class='list'>
+  <text>计划</text>
+  <navigator url=''>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </navigator>
+</view>
+<view class='divider-line'></view>
+<!-- 客服 -->
+<navigator url='/pages/customerService/customerService'>
+  <view class='list'>
+    <text>客服</text>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </view>
+</navigator>
+<view class='divider-line'></view>
+<!-- 系统 -->
+<navigator url='/pages/serviceAgreement/serviceAgreement'>
+  <view class='list'>
+    <text>系统</text>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </view>
+</navigator>
+<view class='divider-line'></view>

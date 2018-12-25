@@ -1,0 +1,104 @@
+/* pages/customerService/customerService.wxss */
+
+.customerService {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+
+.customerService textarea {
+  width: 100%;
+  height: 200rpx;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5rpx #ccc;
+  border-radius: 10rpx;
+  padding: 20rpx;
+  font-size: 28rpx;
+  margin-top: 60rpx;
+}
+
+.customerService input {
+  width: 100%;
+  height: 90rpx;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5rpx #ccc;
+  border-radius: 10rpx;
+  padding: 20rpx;
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+
+.customerService .submit {
+  width: 100%;
+  height: 90rpx;
+  background: #9b1d32;
+  font-size: 32rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20rpx;
+  color: #fff;
+  border-radius: 10rpx;
+}
+
+.customerService .btn {
+  width: 100%;
+  height: 90rpx;
+  border: 1px solid #9b1d32;
+  font-size: 32rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60rpx;
+  color: #9b1d32;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+}
+
+.customerService .btm {
+  margin-top: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+  color: #888;
+}
+
+.fixed-cover {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.fixed-btm {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.question-box {
+  width: 100%;
+  height: 380rpx;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.question-box .lt {
+  width: 100%;
+  height: 120rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  font-size: 32rpx;
+}
+
+.divider-line,.divider{
+  background: #f7f7f7
+}

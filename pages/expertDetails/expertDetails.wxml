@@ -1,0 +1,125 @@
+<!--pages/expertDetails/expertDetails.wxml-->
+
+<!-- 专家介绍 -->
+<view class='exper-bg'>
+  <view class='left'>
+    <text class='tit'>王俐颖</text>
+    <text class='sub-tit'>东方证券首席财富顾问</text>
+    <text class='sub-tit'>中国注册会计师协会非职业会员</text>
+  </view>
+  <view class='right' bindtap='questionShow'>
+    <text>向TA提问</text>
+  </view>
+</view>
+
+<!-- money -->
+<view class='money'>
+  <view class='left'>
+    <view class='text'>
+      <text class='t'>月套餐</text>
+      <text class='num' space="nbsp">  698</text>
+      <text class='t'>元</text>
+    </view>
+    <navigator url='/pages/confirmOrder/confirmOrder'>
+      <view class='button'>
+        <text>立即开通</text>
+      </view>
+    </navigator>
+  </view>
+  <view class='right'>
+    <view class='text'>
+      <text class='t'>季套餐</text>
+      <text class='num' space="nbsp">  1998</text>
+      <text class='t'>元</text>
+    </view>
+    <navigator url='/pages/confirmOrder/confirmOrder'>
+      <view class='button'>
+        <text>立即开通</text>
+      </view>
+    </navigator>
+  </view>
+</view>
+
+<!-- 间隔 -->
+<view class='divider'></view>
+
+<!-- 专家介绍 -->
+<view class='new-title'>
+  <view class='left'>
+    <view class='icon'></view>
+    <text>专家介绍</text>
+  </view>
+</view>
+<!-- 正文 -->
+<view class='main-body'>
+  <text class='mb'>刘万东，安徽桐城人，1960年9月生，理学博士。1978年3月进入中国科技大学近代物理系学习，至1988年获博士学位并留校至今，其中1991-1993年在法国原子能委员会受控聚变研究所进行博士后研究，1996-1997年在日本原子力研究所进行工作访问。2000年起任教授、博士生导师。2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长</text>
+  <text>投资理念</text>
+  <text class='mb'>理学博士。1978年3月进入中国科技大学近代物理系学习，至1988年获博士学位并留校至今，2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长</text>
+  <text>投资绝技</text>
+  <text>2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长,2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长,2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长</text>
+</view>
+
+<!-- 间隔 -->
+<view class='divider'></view>
+
+<!-- 使用期限 -->
+<view class='new-title'>
+  <view class='left'>
+    <view class='icon'></view>
+    <text>使用期限</text>
+  </view>
+</view>
+<view class='main-body'>
+  <text>博士生导师。2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长</text>
+</view>
+
+<!-- 间隔 -->
+<view class='divider'></view>
+
+<!-- 服务使用协议 -->
+<view class='new-title'>
+  <view class='left'>
+    <view class='icon'></view>
+    <text>服务使用协议</text>
+  </view>
+</view>
+<view class='main-body'>
+  <text>在购买前，请您查看服务使用协议。如果您已购买，是为您已阅读并同意《投资论道理财师付费/免费服务使用协议》。</text>
+  <view class='btn'>
+    <navigator url='/pages/serviceAgreement/serviceAgreement'>
+      <view>
+        <text>查看协议</text>
+      </view>
+    </navigator>
+
+  </view>
+</view>
+
+<!-- 间隔 -->
+<view class='divider'></view>
+
+<!-- 提问框 -->
+<view class='fixed-cover' wx:if="{{question_state}}">
+  <view class='fixed-btm'>
+    <view class='question-box'>
+      <view class='icon-box'>
+        <icon type="cancel" size='30' color='#cccccc' bindtap='questionClose' />
+      </view>
+      <view class='tit'>向专家提问</view>
+      <view class='textarea-box'>
+        <textarea bindblur="bindTextAreaBlur" fixed="{{true}}" placeholder="内容" show-confirm-bar="{{false}}" />
+      </view>
+      <view>
+        <label class="checkbox">
+          <checkbox checked="{{true}}" />
+          <text class='t1'>只专家可见</text>
+          <text class='t2'>提问此专家需扣除100金币</text>
+        </label>
+      </view>
+      <view class='brn-box'>
+        <text>问问专家</text>
+      </view>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,59 @@
+<!--pages/confirmOrder/confirmOrder.wxml-->
+
+<view class='list'>
+  <text>消费项目：王俐颖朋友圈月套餐</text>
+</view>
+<view class='divider-line'></view>
+<view class='list'>
+  <view>
+    <text>金额:</text>
+    <text class='icon clo'>￥ </text>
+    <text class='clo num'>888.00</text>
+  </view>
+</view>
+<view class='divider'></view>
+<navigator url='/pages/coupon/coupon'>
+  <view class='list'>
+    <text>优惠券</text>
+    <view class='right'>
+      <text>暂无可用</text>
+      <image class='img' src='/static/imgs/right-icon.jpg'></image>
+    </view>
+  </view>
+</navigator>
+<view class='divider-line'></view>
+<view class='list'>
+  <view>
+    <text>使用金额:</text>
+    <text class='icon clo'>￥ </text>
+    <text class='clo num'>3.50</text>
+  </view>
+  <checkbox value="{{}}" checked="{{true}}" />
+</view>
+<view class='divider-line'></view>
+<view class='list'>
+  <view>
+    <text>还需支付:</text>
+    <text class='icon clo'>￥ </text>
+    <text class='clo num'>884.50</text>
+  </view>
+
+</view>
+
+<!--  -->
+<view class='botm'>
+  <view>
+    <label class="checkbox">
+      <checkbox value="{{}}" checked="{{true}}" />
+      <text class='t1'>已阅读并同意</text>
+      <text class='t2'>《购买协议》</text>
+    </label>
+  </view>
+  <view class='brn-box'>
+    <text>确认支付</text>
+  </view>
+  <view class='tx'>
+    温馨提示：如果您无法完成付款，您需要先去我的账户-我 我的余额中
+    <text>充值余额</text>,在使用余额支付完成付款。
+  </view>
+</view>

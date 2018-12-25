@@ -1,0 +1,45 @@
+<!--pages/Balance/Balance.wxml-->
+<view class='head-box'>
+  <view class='left'>
+    <image class='avatar'></image>
+    <view class='center'>
+      <text class='num'>13812343211</text>
+      <view>
+        <text>余额:</text>
+        <text class='col'>187.50</text>
+      </view>
+    </view>
+  </view>
+  <navigator url='/pages/Recharge/Recharge'>
+    <view class='btn'>充值</view>
+  </navigator>
+</view>
+
+<view class='divider'></view>
+
+<!-- 充值列表 -->
+<view class='list'>
+  <text class='money'>已充值100元</text>
+  <text class='time'>2018-12-14 17:36:57</text>
+</view>
+<view class='divider-line'></view>
+<view class='list'>
+  <text class='money'>已充值100元</text>
+  <text class='time'>2018-12-14 17:36:57</text>
+</view>
+<view class='divider-line'></view>
+<view class='list'>
+  <text class='money'>已充值100元</text>
+  <text class='time'>2018-12-14 17:36:57</text>
+</view>
+<view class='divider-line'></view>
+<view class='list'>
+  <text class='money'>已充值100元</text>
+  <text class='time'>2018-12-14 17:36:57</text>
+</view>
+<view class='divider-line'></view>
+<view class='list'>
+  <text class='money'>已充值100元</text>
+  <text class='time'>2018-12-14 17:36:57</text>
+</view>
+

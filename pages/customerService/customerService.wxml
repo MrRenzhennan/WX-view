@@ -1,0 +1,32 @@
+<!--pages/customerService/customerService.wxml-->
+<view class='customerService'>
+  <textarea bindblur="bindTextAreaBlur" placeholder="请输入反馈意见" />
+  <input placeholder="请输入手机号"  type='number'/>
+  <view class='submit'>
+    <text>提交</text>
+  </view>
+  <view class='btn' bindtap="questionShow">
+    <text>联系客服</text>
+  </view>
+  <text class='btm'>周一到周五9:00至17:00</text>
+</view>
+
+<!-- 弹窗 -->
+<view class='fixed-cover' wx:if="{{question_state}}">
+  <view class='fixed-btm'>
+    <view class='question-box'>
+      <view class='lt'>
+        <text>13800138000</text>
+      </view>
+      <view class='divider-line'></view>
+      <view  class='lt'>
+        <text>呼叫</text>
+      </view>
+       <view class='divider'></view>
+      <view  class='lt'  bindtap="questionClose">
+        <text>取消</text>
+      </view>
+    </view>
+  </view>
+
+</view>

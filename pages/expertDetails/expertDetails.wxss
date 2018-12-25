@@ -1,0 +1,232 @@
+/* pages/expertDetails/expertDetails.wxss */
+.exper-bg{
+  width: 100%;
+  height: 360rpx;
+  background: url(http://thumbs.dreamstime.com/b/%E8%8B%B1%E4%BF%8A%E7%9A%84%E5%95%86%E4%BA%BA%E5%9C%A8%E4%B8%80%E4%B8%AA%E5%8A%9E%E5%85%AC%E5%AE%A4%E6%9C%89%E8%A2%AB%E5%BC%84%E8%84%8F%E7%9A%84%E8%83%8C%E6%99%AF-105907010.jpg);
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  padding: 0px 30rpx 30rpx 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.exper-bg .left{
+  display: flex;
+  flex-direction: column;
+}
+.exper-bg .left .tit{
+  font-size: 40rpx;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 5rpx;
+  margin-bottom: 18rpx;
+}
+.exper-bg .left .sub-tit{
+  font-size: 28rpx;
+  color: #ffffff;
+  letter-spacing: 1rpx;
+}
+.exper-bg .right{
+  width: 200rpx;
+  height: 60rpx;
+  border: 1px solid #ffffff;
+  border-radius: 60rpx;
+}
+.exper-bg .right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.exper-bg .right text{
+  color: #ffffff;
+  font-size: 28rpx;
+  font-weight: 600;
+}
+
+.money{
+  width: 100%;
+  height: 180rpx;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 30rpx 0px;
+  background: #ffffff;
+}
+.money .left,.money .right{
+  width: 50%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  
+}
+.money .right{
+  align-items: flex-end;
+}
+.money .left{
+  border-right: 1px solid #dfdfdf;
+}
+.money .left .text,.money .right .text{
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding-right: 90rpx;
+  margin-bottom: 15rpx;
+  align-items: baseline;
+}
+.money .left .text .t,.money .right .text .t{
+  font-size: 24rpx;
+  color: #333333;
+}
+.money .left .button,.money .right .button{
+  width: 330rpx;
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 28rpx;
+}
+.money .left .button{
+  background: #cd8e98;
+  border-radius: 0 30rpx 30rpx 0;
+}
+.money .right .button{
+  background: #9b1d32;
+  border-radius: 30rpx 0 0 30rpx;
+}
+.new-title{
+  width: 100%;
+  height: 110rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 0px 30rpx;
+  box-sizing: border-box;
+}
+.new-title .left{
+  display: flex;
+  align-items: center;
+}
+.new-title .left .icon{
+  width: 7rpx;
+  height: 30rpx;
+  background: #9b1d32;
+  margin-right: 18rpx;
+}
+.new-title .left text{
+  font-size: 32rpx;
+  color: #333333;
+  font-weight: 600;
+}
+.main-body{
+  background: #fff;
+  font-size: 28rpx;
+  color: #333333;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10rpx 30rpx 60rpx 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+.main-body .mb{
+  margin-bottom: 60rpx;
+}
+.main-body .btn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-body .btn view{
+  width: 250rpx;
+  height: 55rpx;
+  border-radius: 55rpx;
+  background: #ededed;
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-body .btn view text{
+  color: #9b1d32;
+  font-size: 28rpx;
+}
+
+.fixed-cover{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.fixed-btm{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.question-box{
+  width: 100%;
+  height: 580rpx;
+  border-radius: 60rpx 60rpx 0 0;
+  box-sizing: border-box;
+  padding: 0rpx 30rpx 30rpx 30rpx;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.question-box .icon-box{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40rpx;
+}
+.question-box .icon-box icon{
+  margin-right: 10rpx;
+}
+.question-box .tit{
+  font-size: 32rpx;
+  font-weight: 600;
+  margin-bottom: 30rpx;
+}
+.textarea-box textarea{
+  width: 100%;
+  height: 200rpx;
+  border: 1px solid #dfdfdf;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  padding: 10rpx 15rpx;
+  margin-bottom: 30rpx;
+}
+.question-box .checkbox{
+  display: flex;
+  align-items: flex-end;
+}
+
+.question-box .checkbox text{
+  font-size: 28rpx;
+}
+.question-box .checkbox .t1{
+  color: #cccccc;
+  margin-right: 10rpx;
+  margin-left: 15rpx;
+}
+.question-box .checkbox .t2{
+  color: #9b1d32;
+}
+.brn-box{
+  width: 100%;
+  height: 90rpx;
+  background: #9b1d32;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+  color: #ffffff;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+}
+

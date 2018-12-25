@@ -1,0 +1,36 @@
+/* pages/coupon/coupon.wxss */
+.coupon{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+.coupon input{
+  width: 100%;
+  height: 90rpx;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding-left: 20rpx;
+  margin-top: 60rpx;
+  font-size: 32rpx;
+  border-radius: 10rpx;
+}
+.coupon .btn{
+  width: 100%;
+  height: 90rpx;
+  background: #9b1d32;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+}
+.coupon .list-none{
+  color: #ccc;
+  font-size: 28rpx;
+  margin-top: 50rpx;
+  text-align: center;
+}

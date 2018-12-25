@@ -1,0 +1,163 @@
+<!--pages/latestView/latestView.wxml-->
+<view class='bgm'>
+  <view>
+    <text class='tit'>专家精彩回复</text>
+  </view>
+  <view class='eng-lang'>
+    <text>EXCELLENT</text>
+    <text>REPLY</text>
+    <text>FORM</text>
+    <text>EXPERTS</text>
+  </view>
+  <navigator url='/pages/latestViewDetails/latestViewDetails'>
+    <view class='brn-box'>
+      <text>点击查看</text>
+    </view>
+  </navigator>
+</view>
+
+<!-- 分割线 -->
+<view class='line'></view>
+
+<!-- 新闻列表 -->
+<navigator url='/pages/latestViewDetails/latestViewDetails'>
+  <view class='new-list'>
+    <image src='/static/imgs/new01.jpg' mode="aspectFill"></image>
+    <view>
+      <text class='title ell'>大涨次日 有回抽加仓机会?</text>
+      <text class='center'>王丽颖: 周一（昨天）市场在周末利好消息刺激下全线大涨，三大指数均</text>
+    </view>
+  </view>
+</navigator>
+
+
+<!-- 分割线 -->
+<view class='line'></view>
+
+<!-- 新闻列表 -->
+<navigator url='/pages/latestViewDetails/latestViewDetails'>
+  <view class='new-list'>
+    <image src='/static/imgs/new02.jpg' mode="aspectFill"></image>
+    <view>
+      <text class='title ell'>大涨次日 有回抽加仓机会?</text>
+      <text class='center'>王丽颖: 周一（昨天）市场在周末利好消息刺激下全线大涨，三大指数均</text>
+    </view>
+  </view>
+</navigator>
+
+
+<!-- 分割线 -->
+<view class='line'></view>
+
+<!-- 新闻列表 -->
+<navigator url='/pages/latestViewDetails/latestViewDetails'>
+  <view class='new-list'>
+    <image src='/static/imgs/new01.jpg' mode="aspectFill"></image>
+    <view>
+      <text class='title ell'>大涨次日 有回抽加仓机会?</text>
+      <text class='center'>王丽颖: 周一（昨天）市场在周末利好消息刺激下全线大涨，三大指数均</text>
+    </view>
+  </view>
+</navigator>
+
+
+<!-- 分割线 -->
+<view class='line'></view>
+
+<!-- 新闻列表 -->
+<navigator url='/pages/latestViewDetails/latestViewDetails'>
+  <view class='new-list'>
+    <image src='/static/imgs/new02.jpg' mode="aspectFill"></image>
+    <view>
+      <text class='title ell'>大涨次日 有回抽加仓机会?</text>
+      <text class='center'>王丽颖: 周一（昨天）市场在周末利好消息刺激下全线大涨，三大指数均</text>
+    </view>
+  </view>
+</navigator>
+
+<!-- 分割线 -->
+<view class='line'></view>
+
+<!-- 新闻列表 -->
+<navigator url='/pages/latestViewDetails/latestViewDetails'>
+  <view class='new-list'>
+    <image src='/static/imgs/new01.jpg' mode="aspectFill"></image>
+    <view>
+      <text class='title ell'>大涨次日 有回抽加仓机会?</text>
+      <text class='center'>王丽颖: 周一（昨天）市场在周末利好消息刺激下全线大涨，三大指数均</text>
+    </view>
+  </view>
+</navigator>
+
+
+<!-- 分割线 -->
+<view class='line'></view>
+
+<!-- 新闻列表 -->
+<navigator url='/pages/latestViewDetails/latestViewDetails'>
+  <view class='new-list'>
+    <image src='/static/imgs/new02.jpg' mode="aspectFill"></image>
+    <view>
+      <text class='title ell'>大涨次日 有回抽加仓机会?</text>
+      <text class='center'>王丽颖: 周一（昨天）市场在周末利好消息刺激下全线大涨，三大指数均</text>
+    </view>
+  </view>
+</navigator>
+
+<!-- 分割线 -->
+<view class='line'></view>
+
+<!-- 新闻列表 -->
+<navigator url='/pages/latestViewDetails/latestViewDetails'>
+  <view class='new-list'>
+    <image src='/static/imgs/new01.jpg' mode="aspectFill"></image>
+    <view>
+      <text class='title ell'>大涨次日 有回抽加仓机会?</text>
+      <text class='center'>王丽颖: 周一（昨天）市场在周末利好消息刺激下全线大涨，三大指数均</text>
+    </view>
+  </view>
+</navigator>
+
+
+<!-- 分割线 -->
+<view class='line'></view>
+
+<!-- 新闻列表 -->
+<navigator url='/pages/latestViewDetails/latestViewDetails'>
+  <view class='new-list'>
+    <image src='/static/imgs/new02.jpg' mode="aspectFill"></image>
+    <view>
+      <text class='title ell'>大涨次日 有回抽加仓机会?</text>
+      <text class='center'>王丽颖: 周一（昨天）市场在周末利好消息刺激下全线大涨，三大指数均</text>
+    </view>
+  </view>
+</navigator>
+
+<!-- 分割线 -->
+<view class='line'></view>
+
+<!-- 新闻列表 -->
+<navigator url='/pages/latestViewDetails/latestViewDetails'>
+  <view class='new-list'>
+    <image src='/static/imgs/new01.jpg' mode="aspectFill"></image>
+    <view>
+      <text class='title ell'>大涨次日 有回抽加仓机会?</text>
+      <text class='center'>王丽颖: 周一（昨天）市场在周末利好消息刺激下全线大涨，三大指数均</text>
+    </view>
+  </view>
+</navigator>
+
+
+<!-- 分割线 -->
+<view class='line'></view>
+
+<!-- 新闻列表 -->
+<navigator url='/pages/latestViewDetails/latestViewDetails'>
+  <view class='new-list'>
+    <image src='/static/imgs/new02.jpg' mode="aspectFill"></image>
+    <view>
+      <text class='title ell'>大涨次日 有回抽加仓机会?</text>
+      <text class='center'>王丽颖: 周一（昨天）市场在周末利好消息刺激下全线大涨，三大指数均</text>
+    </view>
+  </view>
+</navigator>

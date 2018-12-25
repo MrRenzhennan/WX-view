@@ -1,0 +1,56 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/subscription/subscription",
+    "pages/main/main",
+    "pages/login/login",
+    "pages/circleFriends/circleFriends",
+    "pages/expertDetails/expertDetails",
+    "pages/serviceAgreement/serviceAgreement",
+    "pages/confirmOrder/confirmOrder",
+    "pages/unaryTicket/unaryTicket",
+    "pages/latestView/latestView",
+    "pages/latestViewDetails/latestViewDetails",
+    "pages/latestNews/latestNews",
+    "pages/latestNewsDetails/latestNewsDetails",
+    "pages/registered/registered",
+    "pages/mainEd/mainEd",
+    "pages/coupon/coupon",
+    "pages/SignInRecord/SignInRecord",
+    "pages/Balance/Balance",
+    "pages/Recharge/Recharge",
+    "pages/customerService/customerService"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#9b1d32",
+    "navigationBarTitleText": "钱掌柜",
+    "navigationBarTextStyle": "white",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "color": "#000",
+    "selectedColor": "#9b1d32",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/imgs/tabBar-index.jpg",
+        "selectedIconPath": "/static/imgs/tabBar-index.jpg"
+      },
+      {
+        "pagePath": "pages/subscription/subscription",
+        "text": "订阅",
+        "iconPath": "/static/imgs/subscription.jpg",
+        "selectedIconPath": "/static/imgs/subscription.jpg"
+      },
+      {
+        "pagePath": "pages/main/main",
+        "text": "我的",
+        "iconPath": "/static/imgs/main.jpg",
+        "selectedIconPath": "/static/imgs/main.jpg"
+      }
+    ]
+  }
+}

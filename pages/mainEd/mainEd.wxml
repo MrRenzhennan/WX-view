@@ -1,0 +1,66 @@
+<!--pages/mainEd/mainEd.wxml-->
+<view class='head-box'>
+  <image class='avatar'></image>
+  <text>13812343211</text>
+  <navigator url='/pages/SignInRecord/SignInRecord'>
+    <view class='btn'>未签到</view>
+  </navigator>
+  <image class='right' src='/static/imgs/right-icon.jpg'></image>
+</view>
+<!-- 分区 -->
+<view class='divider'></view>
+<!-- 优惠券 -->
+<view class='list'>
+  <text>优惠券</text>
+  <navigator url=''>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </navigator>
+</view>
+<view class='divider-line'></view>
+<!-- 余额 -->
+<view class='list'>
+  <text>余额</text>
+  <navigator url=''>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </navigator>
+</view>
+<view class='divider-line'></view>
+<!-- 消息 -->
+<view class='list'>
+  <text>消息</text>
+  <navigator url=''>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </navigator>
+</view>
+<view class='divider-line'></view>
+<!-- 计划 -->
+<view class='list'>
+  <text>计划</text>
+  <navigator url=''>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </navigator>
+</view>
+<view class='divider-line'></view>
+<!-- 客服 -->
+<view class='list'>
+  <text>客服</text>
+  <navigator url=''>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </navigator>
+</view>
+<view class='divider-line'></view>
+<!-- 系统 -->
+<view class='list'>
+  <text>系统</text>
+  <navigator url=''>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </navigator>
+</view>
+<view class='divider-line'></view>
+<!-- 退出登录 -->
+<view class='list logout' bindtap='loginBtnClick'>
+  <text>退出登录</text>
+  <navigator url=''>
+    <image class='right' src='/static/imgs/right-icon.jpg'></image>
+  </navigator>
+</view>

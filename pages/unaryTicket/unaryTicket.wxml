@@ -1,0 +1,14 @@
+<!--pages/unaryTicket/unaryTicket.wxml-->
+<view class='unaryTicket'>
+  <input placeholder="请输入股票代码或拼音"/>
+  <view class='brn-box'>
+    <text>￥ 1 解票诊断</text>
+  </view>
+  <text class='tx'>
+    请输入您想诊断的股票代码，系统会返回该股票最新行情分析，
+    机会与风险一目了然，您可以参考图表数据进行风险规避。
+  </text>
+  <text class='ol'>
+    注：每次查询支付1元人民币，当天查询同一股票不重复收费。
+  </text>
+</view>
