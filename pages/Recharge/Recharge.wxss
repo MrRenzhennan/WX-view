@@ -41,6 +41,9 @@ page{
   box-sizing: border-box;
   padding: 0 30rpx;
 }
+.recharge-box .recharge-box-active{
+  background: #c98a94;
+}
 .recharge-box view{
   width: 330rpx;
   height: 152rpx;

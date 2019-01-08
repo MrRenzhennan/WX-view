@@ -1,9 +1,11 @@
 <!--pages/unaryTicket/unaryTicket.wxml-->
 <view class='unaryTicket'>
-  <input placeholder="请输入股票代码或拼音"/>
-  <view class='brn-box'>
-    <text>￥ 1 解票诊断</text>
-  </view>
+  <input placeholder="请输入股票代码或拼音" />
+  <navigator url='/pages/unaryTicketDetails/unaryTicketDetails'>
+    <view class='brn-box'>
+      <text>￥ 1 解票诊断</text>
+    </view>
+  </navigator>
   <text class='tx'>
     请输入您想诊断的股票代码，系统会返回该股票最新行情分析，
     机会与风险一目了然，您可以参考图表数据进行风险规避。

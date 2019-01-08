@@ -1,4 +1,35 @@
 /* pages/circleFriends/circleFriends.wxss */
+.scroll-view-x{
+  background-color: #9b1d32;
+  white-space: nowrap;
+  position:fixed;
+  z-index:10;
+  top:0;
+  box-sizing: border-box;
+  padding: 0 70rpx;
+}
+.scroll-view-x .scroll-view-item{
+  display:inline-block;
+  line-height: 33px;
+  cursor: pointer;
+  font-size: 28rpx;
+  color: #ccc;
+  width: 50%;
+  text-align: center;
+}
+.scroll-view-x .scroll-view-item view{
+  padding: 0 10rpx;
+}
+.on{
+  border-bottom: 6rpx solid #fff;
+  color: #fff
+}
+
+.list-box{
+  margin-top: 75rpx;
+
+}
+
 .circleFriends{
   width: 100%;
   height: 250rpx;

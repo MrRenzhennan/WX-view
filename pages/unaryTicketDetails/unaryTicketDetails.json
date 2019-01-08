@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "一元解票",
+  "usingComponents": {
+    "ec-canvas": "../../utils/ec-canvas/ec-canvas"
+  }
+}

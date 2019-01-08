@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 17,
+			"current": 20,
 			"list": [
 				{
 					"id": -1,
@@ -153,7 +153,26 @@
 				{
 					"id": -1,
 					"name": "客服",
-					"pathName": "pages/customerService/customerService"
+					"pathName": "pages/customerService/customerService",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "私密朋友圈-购买后",
+					"pathName": "pages/buyEdCircleFriends/buyEdCircleFriends",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "一元解票详情",
+					"pathName": "pages/unaryTicketDetails/unaryTicketDetails",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": -1,
+					"name": "实时行情",
+					"pathName": "pages/realTimeMarket/realTimeMarket"
 				}
 			]
 		}

@@ -1,0 +1,130 @@
+/* pages/unaryTicketDetails/unaryTicketDetails.wxss */
+
+.scroll-view-x {
+  background-color: #9b1d32;
+  white-space: nowrap;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  box-sizing: border-box;
+  padding: 0 70rpx;
+}
+
+.scroll-view-x .scroll-view-item {
+  display: inline-block;
+  line-height: 33px;
+  cursor: pointer;
+  font-size: 28rpx;
+  color: #ccc;
+  width: 50%;
+  text-align: center;
+}
+
+.scroll-view-x .scroll-view-item view {
+  padding: 0 10rpx;
+}
+
+.on {
+  border-bottom: 6rpx solid #fff;
+  color: #fff;
+}
+
+.box{
+  width: 100%;
+}
+
+.center-box{
+  width: 100%;
+  box-sizing: border-box;
+  /* position: absolute; */
+}
+
+
+
+.container {
+  width: 100%;
+  height: 600rpx;
+  margin-top: 75rpx;
+}
+
+ec-canvas {
+  width: 100%;
+  height: 600rpx;
+}
+
+.concept, .description {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.concept .top, .description .top {
+  display: flex;
+  align-items: center;
+}
+
+.concept .top .icon, .description .top .icon {
+  width: 7rpx;
+  height: 30rpx;
+  background: #9b1d32;
+  margin-right: 18rpx;
+}
+
+.concept .top text, .description .top text {
+  font-size: 32rpx;
+  color: #333;
+  font-weight: 600;
+}
+
+.concept .botm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.concept .botm view {
+  padding: 10rpx 20rpx;
+  border: 1px solid #9b1d32;
+  font-size: 28rpx;
+  margin-right: 20rpx;
+  border-radius: 10rpx;
+  color: #9b1d32;
+  margin-top: 30rpx;
+}
+
+.description .botm text {
+  font-size: 28rpx;
+  color: #9b1d32;
+}
+
+.table {
+  border: 1px solid #ccc;
+  border-right: 0;
+  border-bottom: 0;
+  width: 100%;
+  font-size: 28rpx;
+  margin-top: 30rpx;
+}
+
+.tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.th, .td {
+  padding: 10px;
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  text-align: center;
+  width: 100%;
+}
+
+.th {
+  font-weight: 400;
+  background-color: #9b1d32;
+  color: #fff
+}

@@ -1,0 +1,112 @@
+<!--pages/unaryTicketDetails/unaryTicketDetails.wxml-->
+<scroll-view scroll-x="true" class="scroll-view-x">
+  <view class="scroll-view-item" wx:for="{{_TabList}}" wx:key="*this">
+    <view class="{{idx == item.num ? 'on' : ''}}" bindtap="currentTab" data-current="{{item.num}}">{{ item.name }}</view>
+  </view>
+</scroll-view>
+
+<view class='box'>
+
+
+  <view class='center-box' wx:if="{{idx == 0}}">
+    <view class="container">
+      <ec-canvas id="mychar1" canvas-id="mychart1" ec="{{ ec1 }}"></ec-canvas>
+    </view>
+    <view class='divider'></view>
+    <view class='concept'>
+      <view class='top'>
+        <view class='icon'></view>
+        <text>所属概念</text>
+      </view>
+      <view class='botm'>
+        <view>军民融合</view>
+        <view>人民币贬值</view>
+        <view>军民融合</view>
+      </view>
+    </view>
+    <view class='divider'></view>
+    <view class='description'>
+      <view class='top'>
+        <view class='icon'></view>
+        <text>描述</text>
+      </view>
+      <view class='botm'>
+        <text>短线上涨趋势，风险位7.25</text>
+      </view>
+    </view>
+    <view class='divider'></view>
+    <view class='description'>
+      <view class='top'>
+        <view class='icon'></view>
+        <text>详细数据</text>
+      </view>
+      <view class='botm'>
+        <view class="table">
+          <view class="tr">
+            <view class="th">时间</view>
+            <view class="th">机会线</view>
+            <view class="th">风险线</view>
+            <view class="th">雷达信号</view>
+          </view>
+          <view class="tr" wx:for="{{5}}">
+            <view class="td">内容</view>
+            <view class="td">内容</view>
+            <view class="td">内容</view>
+            <view class="td">内容</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='center-box' wx:if="{{idx == 1}}">
+    <view class="container">
+      <ec-canvas id="mychart2" canvas-id="mychart2" ec="{{ ec2 }}"></ec-canvas>
+    </view>
+    <view class='divider'></view>
+    <view class='concept'>
+      <view class='top'>
+        <view class='icon'></view>
+        <text>所属概念</text>
+      </view>
+      <view class='botm'>
+        <view>军民融合</view>
+        <view>人民币贬值</view>
+      </view>
+    </view>
+    <view class='divider'></view>
+    <view class='description'>
+      <view class='top'>
+        <view class='icon'></view>
+        <text>描述</text>
+      </view>
+      <view class='botm'>
+        <text>短线上涨趋势，风险位7.25</text>
+      </view>
+    </view>
+    <view class='divider'></view>
+    <view class='description'>
+      <view class='top'>
+        <view class='icon'></view>
+        <text>详细数据</text>
+      </view>
+      <view class='botm'>
+        <view class="table">
+          <view class="tr">
+            <view class="th">时间</view>
+            <view class="th">机会线</view>
+            <view class="th">风险线</view>
+            <view class="th">雷达信号</view>
+          </view>
+          <view class="tr" wx:for="{{5}}">
+            <view class="td">内容</view>
+            <view class="td">内容</view>
+            <view class="td">内容</view>
+            <view class="td">内容</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

@@ -1,9 +1,18 @@
 <!--pages/main/main.wxml-->
-<view class='head-box'>
+<!-- <view class='head-box'>
   <image></image>
   <navigator url='/pages/login/login'>
     <text>授权登陆</text>
   </navigator>
+</view> -->
+<view class='head-box'>
+  <image class='avatar'></image>
+  <text wx:if="{{true}}">授权登陆</text>
+  <text wx:if="{{false}}">13812343211</text>
+  <navigator url='/pages/SignInRecord/SignInRecord'>
+    <view class='btn'>未签到</view>
+  </navigator>
+  <image class='right' src='/static/imgs/right-icon.jpg'></image>
 </view>
 <!-- 分区 -->
 <view class='divider'></view>

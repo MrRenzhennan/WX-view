@@ -62,5 +62,18 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  model:function(){
+    wx.showActionSheet({
+      itemList: ['优惠券1', '优惠券2', '优惠券3'],
+      success(res) {
+        console.log(res.tapIndex)
+      },
+      fail(res) {
+        console.log(res.errMsg)
+      }
+    })
   }
+
 })

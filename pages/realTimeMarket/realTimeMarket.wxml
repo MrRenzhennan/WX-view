@@ -1,0 +1,85 @@
+<!--pages/realTimeMarket/realTimeMarket.wxml-->
+<view class='input-box'>
+  <input placeholder="股票名称/代码/全拼" />
+  <button>+</button>
+</view>
+
+<view class='divider'></view>
+
+<view class='block-box'>
+  <view class='exponent up'>
+    <text>上涨指数</text>
+    <text class='num'>2533.09</text>
+    <view class='btm'>
+      <text>+18.22</text>
+      <text>0.72%</text>
+    </view>
+  </view>
+  <view class='exponent down'>
+    <text>上涨指数</text>
+    <text class='num'>2533.09</text>
+    <view class='btm'>
+      <text>+18.22</text>
+      <text>0.72%</text>
+    </view>
+  </view>
+  <view class='exponent stop'>
+    <text>上涨指数</text>
+    <text class='num'>2533.09</text>
+    <view class='btm'>
+      <text>+18.22</text>
+      <text>0.72%</text>
+    </view>
+  </view>
+</view>
+
+<view class='divider'></view>
+
+<view class='table-title'>
+  <view class='t1'>名称代码</view>
+  <view class='t2'>最新价</view>
+  <view class='t3'>涨跌幅</view>
+</view>
+
+<view class='table-list'>
+  <view class='icon'>us</view>
+  <view class='center'>
+    <view class='type'>
+      <text class='chinese'>苹果</text>
+      <text class='english'>AAPL</text>
+    </view>
+    <view class="trend up">147.200</view>
+    <view class='ups-and-downs'>
+      <view class='ups-up'>-1.521</view>
+    </view>
+  </view>
+
+</view>
+
+<view class='table-list'>
+  <view class='icon'>us</view>
+  <view class='center'>
+    <view class='type'>
+      <text class='chinese'>苹果</text>
+      <text class='english'>AAPL</text>
+    </view>
+    <view class="trend down">147.200</view>
+    <view class='ups-and-downs'>
+      <view class='ups-down'>-1.521</view>
+    </view>
+  </view>
+</view>
+
+<view class='table-list'>
+  <view class='icon'>us</view>
+  <view class='center'>
+    <view class='type'>
+      <text class='chinese'>苹果</text>
+      <text class='english'>AAPL</text>
+    </view>
+    <view class="trend stop">147.200</view>
+    <view class='ups-and-downs'>
+      <view class='ups-stop'>-1.521</view>
+    </view>
+  </view>
+</view>

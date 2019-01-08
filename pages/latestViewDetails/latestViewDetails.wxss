@@ -72,8 +72,18 @@ page{
 .flex-bot image{
   width: 47rpx;
   height: 47rpx;
+  position: relative;
+  top: 35rpx;
 }
-.flex-bot text{
+/* .flex-bot text{
   font-size: 24rpx;
   color: #ccc;
+} */
+.flex-bot button{
+  border: none;
+  font-size: 24rpx;
+  color: #ccc;
+  height: 100rpx;
+  line-height: 100rpx; 
 }
+ 

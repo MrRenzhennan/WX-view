@@ -1,0 +1,239 @@
+/* pages/buyEdCircleFriends/buyEdCircleFriends.wxss */
+
+page {
+  background: #fff;
+}
+
+.t-box {
+  width: 100%;
+  height: 150rpx;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 30rpx;
+}
+
+.t-box .left {
+  width: 90rpx;
+  height: 90rpx;
+  background: url(http://img0.imgtn.bdimg.com/it/u=50179360,882452249&fm=214&gp=0.jpg);
+  background-size: 100% 100%;
+  border-radius: 50%;
+}
+
+.t-box .right {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 20rpx;
+  flex: 1;
+}
+
+.t-box .tit {
+  font-size: 32rpx;
+  font-weight: 600;
+  margin-bottom: 10rpx;
+}
+.t-box .btm{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.t-box .btm .operation{
+  display: flex;
+  flex-direction: row;
+}
+.t-box .btm .operation .like{
+  background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1546679663339&di=c8a3748c2dbad4e16b215d335366d45a&imgtype=0&src=http%3A%2F%2Fimg.bqatj.com%2Fimg%2F25c42a119a278443.jpg);
+  background-size: 100% 100%;
+  width: 30rpx;
+  height: 30rpx;
+}
+.t-box .btm .operation .comment{
+  background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1546540512875&di=4149d92dd9f4f0cc19550e61f55a5df3&imgtype=0&src=http%3A%2F%2Fwww.sj520.cn%2Fsc%2Fima%2Fweixin_sj520_20.jpg);
+  background-size: 100% 100%;
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 20rpx;
+}
+.t-box .tim {
+  font-size: 28rpx;
+  color: #ccc;
+}
+
+.details {
+  font-size: 28rpx;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  line-height: 40rpx;
+}
+
+.detailsOnce {
+  height: 240rpx;
+  overflow: hidden;
+}
+
+.detailsAll {
+  height: auto;
+}
+
+.dAll, .hiddenAll {
+  font-size: 32rpx;
+  color: #566c94;
+  margin: 10rpx 0px 50rpx 30rpx;
+}
+
+.img-box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+
+.img-box .img {
+  width: 100%;
+  height: 390rpx;
+  background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1546538524218&di=70050c56382656d1e0a42296dcb7950a&imgtype=0&src=http%3A%2F%2Fs4.sinaimg.cn%2Fbmiddle%2F6027a35fg6a1586cbed93%26690);
+  background-size: 100% 100%;
+}
+
+
+.comment-num{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 32rpx;
+  margin-top: 30rpx;
+  padding-bottom: 10rpx;
+}
+.comment-num .left-border{
+  width: 10rpx;
+  height: 50rpx;
+  background: red;
+  margin-right: 20rpx;
+  border-radius: 0px 25rpx 25rpx 0px;
+}
+.comment-num text{
+  margin-right: 15rpx;
+}
+.comment-box{
+  padding-bottom: 100rpx;
+}
+.comment-list{
+  width: 100%;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.comment-list .Avatar{
+  width: 75rpx;
+  height: 75rpx;
+  border-radius: 50%;
+  background: url(http://img0.imgtn.bdimg.com/it/u=50179360,882452249&fm=214&gp=0.jpg);
+  background-size: 100% 100%;
+}
+.comment-list .center{
+  margin-left: 20rpx;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid #ccc;
+}
+.comment-list .center .num{
+  color: #ccc;
+  font-size: 28rpx;
+  margin-bottom: 20rpx;
+  font-weight: 600;
+}
+.comment-list .center .text{
+  font-size: 28rpx;
+  margin-bottom: 30rpx;
+}
+.comment-list .center .comment-center{
+  padding: 30rpx;
+  background: #f7f7f7;
+  margin-bottom: 30rpx;
+}
+.comment-list .center .revert-list{
+  font-size: 28rpx;
+  margin-bottom: 10rpx;
+}
+.comment-list .center .revert-list .revert-people{
+  color: #8b99af;
+}
+.revert-num{
+  font-size: 28rpx;
+   color: #8b99af;
+   margin-top: 10rpx;
+}
+.comment-list .center .time{
+  color: #ccc;
+  font-size: 24rpx;
+  margin-bottom: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.comment-list .center .time .icon{
+  width: 50rpx;
+  height: 40rpx;
+  background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1546540512875&di=4149d92dd9f4f0cc19550e61f55a5df3&imgtype=0&src=http%3A%2F%2Fwww.sj520.cn%2Fsc%2Fima%2Fweixin_sj520_20.jpg);
+  background-size: 100% 100%;
+}
+
+
+.fix-bot{
+  width: 100%;
+  height: 100rpx;
+  background: #fff;
+  position: fixed;
+  bottom: 0px;
+  border-top: 1px solid #ccc;
+}
+.flex-bot{
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.flex-bot .bx{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.flex-bot .bx:nth-child(1){
+  flex-grow:0.5;
+}
+.cc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-bot image{
+  width: 47rpx;
+  height: 47rpx;
+  position: relative;
+  top: 35rpx;
+}
+/* .flex-bot text{
+  font-size: 24rpx;
+  color: #ccc;
+} */
+.flex-bot button{
+  border: none;
+  font-size: 24rpx;
+  color: #ccc;
+  height: 100rpx;
+  line-height: 100rpx; 
+}
+

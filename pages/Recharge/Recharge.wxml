@@ -12,17 +12,17 @@
 
 <!-- 充值类型 -->
 <view class='recharge-box'>
-  <view>
+  <view data-index="{{0}}" class="{{idx==0?'recharge-box-active':''}}" bindtap='goIndex'>
     <text>充100元</text>
   </view>
-  <view>
+  <view data-index="{{1}}" class="{{idx==1?'recharge-box-active':''}}" bindtap='goIndex'>
     <text>充100元</text>
   </view>
-  <view>
+  <view data-index="{{2}}" class="{{idx==2?'recharge-box-active':''}}" bindtap='goIndex'>
     <text>充100元</text>
     <text class='offer'>送50元</text>
   </view>
-  <view>
+  <view data-index="{{3}}" class="{{idx==3?'recharge-box-active':''}}" bindtap='goIndex'>
     <text>充100元</text>
     <text class='offer'>送50元</text>
   </view>

@@ -2,14 +2,10 @@
 <view class='box'>
   <image src='/static/imgs/login-logo.jpg' class='login-logo'></image>
   <image src='/static/imgs/login-text.jpg' class='login-text'></image>
-  <view class='btn-logo' bindtap='loginBtnClick'>
-    <text>微信用户快速登陆</text>
-  </view>
-  <view class='btn-registered'>
-    <navigator url='/pages/registered/registered'>
-      <text>没有账户?请注册登陆</text>
-    </navigator>
-  </view>
+  <button class='btn-logo' bindtap='loginBtnClick'>微信用户快速登陆</button>
+  <navigator url='/pages/registered/registered'>
+    <button class='btn-registered '>没有账户?请注册登陆</button>
+  </navigator>
   <view class='prompt'>
     <text class='t1'>注册即代表同意</text>
     <navigator url='/pages/serviceAgreement/serviceAgreement'>

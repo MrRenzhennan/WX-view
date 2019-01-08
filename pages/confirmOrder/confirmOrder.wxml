@@ -12,15 +12,13 @@
   </view>
 </view>
 <view class='divider'></view>
-<navigator url='/pages/coupon/coupon'>
-  <view class='list'>
+  <view class='list' bindtap='model'>
     <text>优惠券</text>
     <view class='right'>
       <text>暂无可用</text>
       <image class='img' src='/static/imgs/right-icon.jpg'></image>
     </view>
   </view>
-</navigator>
 <view class='divider-line'></view>
 <view class='list'>
   <view>
@@ -49,9 +47,11 @@
       <text class='t2'>《购买协议》</text>
     </label>
   </view>
-  <view class='brn-box'>
-    <text>确认支付</text>
-  </view>
+  <navigator url='/pages/buyEdCircleFriends/buyEdCircleFriends'>
+    <view class='brn-box'>
+      <text>确认支付</text>
+    </view>
+  </navigator>
   <view class='tx'>
     温馨提示：如果您无法完成付款，您需要先去我的账户-我 我的余额中
     <text>充值余额</text>,在使用余额支付完成付款。

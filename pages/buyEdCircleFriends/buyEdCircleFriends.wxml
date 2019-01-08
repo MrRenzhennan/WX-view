@@ -1,0 +1,153 @@
+<!--pages/buyEdCircleFriends/buyEdCircleFriends.wxml-->
+
+<!-- title -->
+<view class='t-box'>
+  <view class='left'>
+  </view>
+  <view class='right'>
+    <text class='tit'>王俐颖</text>
+    <view class='btm'>
+      <text class='tim'>2018-12-20 10:10:10</text>
+      <view class='operation'>
+        <view class='like'></view>
+        <view class='comment'></view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- 详情 -->
+<view class='{{height ? "details detailsAll" : "details detailsOnce"}}'>
+  2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长, 2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长,2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长 2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长, 2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长,2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长 2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长,
+  2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长,2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长 2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长, 2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长,2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长 2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长, 2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长,2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长
+  2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长, 2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长,2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长 2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长, 2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长,2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长 2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长,
+  2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长,2001-2008年任近代物理系主任，2009-2014年任物理学院执行院长
+</view>
+
+<!-- 全文 -->
+<view class='dAll' wx:if="{{!height}}" bindtap='onDetailsAll'>
+  <text>全文</text>
+</view>
+
+<!-- 收起 -->
+<view class='hiddenAll' wx:if="{{height}}" bindtap='onDetailsOnce'>
+  <text>收起</text>
+</view>
+
+<!-- 图片 -->
+<view class='img-box'>
+  <view class='img'></view>
+</view>
+
+<!-- 评论 -->
+<view class='comment-num'>
+  <view class='left-border'></view>
+  <text>评论</text>
+  <text>24</text>
+</view>
+
+<!-- 评论列表 -->
+<view class='comment-box'>
+  <view class='comment-list'>
+    <view class='Avatar'></view>
+    <view class='center'>
+      <text class='num'>133****3456</text>
+      <text class='text'>王老师分享的很有道理</text>
+
+      <view class='comment-center'>
+        <view class='revert-list'>
+          <text class='revert-people'>王丽颖：</text>
+          <text class='revert-center'>王老师分享的很有道理王老师分享的很有道理王老师分享的很有道理王老师分享的很有道理王老师分享的很有</text>
+        </view>
+        <view class='revert-list'>
+          <text class='revert-people'>王丽颖：</text>
+          <text class='revert-center'>王老师分享的很有道理</text>
+        </view>
+        <view class='revert-num'>共13条回复</view>
+      </view>
+
+      <view class='time'>
+        <text>01-01 13:00</text>
+        <view class='icon'></view>
+      </view>
+    </view>
+  </view>
+
+  <view class='comment-list'>
+    <view class='Avatar'></view>
+    <view class='center'>
+      <text class='num'>133****3456</text>
+      <text class='text'>王老师分享的很有道理王老师分享的很有道理王老师分享的很有道理王老师分享的很有道理王老师分享的很有道理王老师分享的很有道理</text>
+
+      <view class='comment-center'>
+        <view class='revert-list'>
+          <text class='revert-people'>王丽颖：</text>
+          <text class='revert-center'>王老师分享的很有道理王老师分享的很有道理王老师分享的很有道理王老师分享的很有道理王老师分享的很有</text>
+        </view>
+        <view class='revert-list'>
+          <text class='revert-people'>王丽颖：</text>
+          <text class='revert-center'>王老师分享的很有道理</text>
+        </view>
+        <view class='revert-num'>共13条回复</view>
+      </view>
+
+      <view class='time'>
+        <text>01-01 13:00</text>
+        <view class='icon'></view>
+      </view>
+    </view>
+  </view>
+
+  <view class='comment-list'>
+    <view class='Avatar'></view>
+    <view class='center'>
+      <text class='num'>133****3456</text>
+      <text class='text'>王老师分享的很有道理</text>
+      <view class='time'>
+        <text>01-01 13:00</text>
+        <view class='icon'></view>
+      </view>
+    </view>
+  </view>
+
+  <view class='comment-list'>
+    <view class='Avatar'></view>
+    <view class='center'>
+      <text class='num'>133****3456</text>
+      <text class='text'>王老师分享的很有道理</text>
+      <view class='time'>
+        <text>01-01 13:00</text>
+        <view class='icon'></view>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+
+<!--  -->
+<view class='fix-bot'>
+  <view class='flex-bot'>
+    <view class='bx'>
+      <view class='cc'>
+        <image src='/static/imgs/money-icon.jpg'></image>
+        <!-- <text>首页</text> -->
+        <button plain="{{true}}">首页</button>
+      </view>
+    </view>
+    <view class='bx'>
+      <view class='cc'>
+        <image src='/static/imgs/pl-icon.jpg'></image>
+        <!-- <text>发布评论</text> -->
+        <button plain="{{true}}">发布评论</button>
+      </view>
+    </view>
+    <view class='bx'>
+      <view class='cc'>
+        <image src='/static/imgs/wx-icon.jpg'></image>
+        <!-- <text>分享好友</text> -->
+        <button plain="{{true}}">分享好友</button>
+      </view>
+    </view>
+  </view>
+</view>

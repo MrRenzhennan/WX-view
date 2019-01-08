@@ -25,23 +25,24 @@
 <view class='fix-bot'>
   <view class='flex-bot'>
     <view class='bx'>
-      <navigator url='/pages/index/index'>
-        <view class='cc'>
-          <image src='/static/imgs/money-icon.jpg'></image>
-          <text>首页</text>
-        </view>
-      </navigator>
+      <view class='cc'>
+        <image src='/static/imgs/money-icon.jpg'></image>
+        <!-- <text>首页</text> -->
+        <button plain="{{true}}">首页</button>
+      </view>
     </view>
     <view class='bx'>
       <view class='cc'>
         <image src='/static/imgs/pl-icon.jpg'></image>
-        <text>发布评论</text>
+        <!-- <text>发布评论</text> -->
+        <button plain="{{true}}">发布评论</button>
       </view>
     </view>
     <view class='bx'>
       <view class='cc'>
         <image src='/static/imgs/wx-icon.jpg'></image>
-        <text>分享好友</text>
+        <!-- <text>分享好友</text> -->
+        <button plain="{{true}}">分享好友</button>
       </view>
     </view>
   </view>

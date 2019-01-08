@@ -9,7 +9,7 @@
 
 <!-- 分区 -->
 <view class='Partition'>
-  <navigator url=''>
+  <navigator url='/pages/realTimeMarket/realTimeMarket'>
     <image src='/static/imgs/partition01.jpg'></image>
     <text>实时行情</text>
   </navigator>

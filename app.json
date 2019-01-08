@@ -19,7 +19,10 @@
     "pages/SignInRecord/SignInRecord",
     "pages/Balance/Balance",
     "pages/Recharge/Recharge",
-    "pages/customerService/customerService"
+    "pages/customerService/customerService",
+    "pages/buyEdCircleFriends/buyEdCircleFriends",
+    "pages/unaryTicketDetails/unaryTicketDetails",
+    "pages/realTimeMarket/realTimeMarket"
   ],
   "window": {
     "navigationBarBackgroundColor": "#9b1d32",
